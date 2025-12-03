@@ -1,0 +1,28 @@
+{
+  "input_file": "../FMCW radar-based multi-person vital sign monitoring data/1_AsymmetricalPosition/1_Radar_Raw_Data/position_ (1)/adc_3GHZ_position1_ (2).bin",
+  "bandwidth_ghz": 3.0,
+  "frequency_slope_mhz_per_us": 60,
+  "num_frames_processed": 1200,
+  "targets": [
+    {
+      "target_id": 1,
+      "range_m": 2.25,
+      "azimuth_deg": 31.428571428571416,
+      "breathing_rate_bpm": 9.375,
+      "heart_rate_bpm": 97.265625,
+      "confidence_breath": 1.4294749161229576,
+      "confidence_heart": 2.1612470062662243,
+      "motion_detected": false
+    },
+    {
+      "target_id": 2,
+      "range_m": 1.4000000000000001,
+      "azimuth_deg": 2.857142857142854,
+      "breathing_rate_bpm": 8.203125,
+      "heart_rate_bpm": 77.34375,
+      "confidence_breath": 1.8005579577099204,
+      "confidence_heart": 2.386716169945998,
+      "motion_detected": true
+    }
+  ]
+}
